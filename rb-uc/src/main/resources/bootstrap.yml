@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: rb-config
+      label: master
+      name: uc
+      profile: dev

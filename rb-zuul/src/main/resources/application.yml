@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: rb-gate
+    
+server:
+  port: 8765
+    
+zuul:
+  prefix: /api #拦截所有api开头的请求
+  routes:      #todo 路由表
+    user-center: 
+      path: /uc/**
+      service-id: user-center
+      
+      
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
