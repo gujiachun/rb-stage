@@ -27,6 +27,7 @@
 		<module>rb-config</module>
 		<module>rb-zuul</module>
 		<module>rb-uc</module>
+		<module>rb-auth</module>
 	</modules>
 	<dependencyManagement>
         <dependencies>
