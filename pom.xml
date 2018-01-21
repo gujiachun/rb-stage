@@ -25,7 +25,7 @@
 		<module>rb-common</module>
 		<module>rb-eureka</module>
 		<module>rb-config</module>
-		<module>rb-zuul</module>
+		<module>rb-gate</module>
 		<module>rb-uc</module>
 		<module>rb-auth</module>
 	</modules>
